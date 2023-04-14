@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Salon Rp</title>
+    <link rel="stylesheet" href="css/estilos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+  </head>
+  <body class="grid-container">
+    <header class="header">
+      <img src="/img/corona_blanca-01.svg" alt="" class="img-logo" />
+    </header>
+    <nav class="navbar swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="/img/cheri.png" alt="" /></div>
+        <div class="swiper-slide"><img src="/img/inoa.png" alt="" /></div>
+        <div class="swiper-slide"><img src="/img/kerastase.png" alt="" /></div>
+        <div class="swiper-slide">
+          <img src="/img/gamasalonexclusive.png" alt="" />
+        </div>
+        <div class="swiper-slide"><img src="/img/wella.png" alt="" /></div>
+        <div class="swiper-slide"><img src="/img/loreal.png" alt="" /></div>
+        <div class="swiper-slide"><img src="/img/alfa.png" alt="" /></div>
+        <div class="swiper-slide"><img src="/img/olaplex.png" alt="" /></div>
+        <div class="swiper-slide"><img src="/img/revlon.png" alt="" /></div>
+
+        <!-- <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div> -->
+      </div>
+    </nav>
+    <div class="controles">CONTROLES</div>
+    <article class="main">MAIN</article>
+    <aside class="sidebar1">SIDEBAR 1</aside>
+    <aside class="sidebar2">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83355.4646749759!2d-58.41491660894843!3d-34.6568295545387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaa4d0b3fdef%3A0xbc42e5f1aab66b65!2sSalon%20Rp%20(ex%20Llongueras)!5e0!3m2!1ses-419!2sar!4v1677643972534!5m2!1ses-419!2sar"
+        width="500px"
+        height="250px"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </aside>
+    <footer class="footer">FOOTER</footer>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "flip",
+        autoplay: {
+          delay: 300,
+        },
+        grabCursor: true,
+        pagination: {
+          el: ".swiper-pagination",
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>
