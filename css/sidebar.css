@@ -1,0 +1,11 @@
+.sidebar1 {
+    grid-area: sidebar1;
+    background-color: #ddb585;
+}
+
+.sidebar2 {
+    display: grid;
+    place-items: center;
+    grid-area: sidebar2;
+    background-color: #ddb585;
+}

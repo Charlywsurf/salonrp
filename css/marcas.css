@@ -1,0 +1,6 @@
+.navbar {
+    display: grid;
+    place-items: center;
+    grid-area: navbar;
+    background-color: #fff;
+}

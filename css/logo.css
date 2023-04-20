@@ -1,0 +1,6 @@
+.header {
+    grid-area: header;
+    display: grid;
+    place-items: center;
+    background-color: black;
+}
